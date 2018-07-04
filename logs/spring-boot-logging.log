@@ -1,0 +1,92 @@
+2018-07-04 10:08:59.851  INFO 1200 --- [main] com.example.demo.SampleApplicationTests  : Starting SampleApplicationTests on DESKTOP-U5U1KIE with PID 1200 (started by 谭振祺 in C:\user\idea\sample-master)
+2018-07-04 10:08:59.889  INFO 1200 --- [main] com.example.demo.SampleApplicationTests  : No active profile set, falling back to default profiles: default
+2018-07-04 10:09:00.138  INFO 1200 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2767e23c: startup date [Wed Jul 04 10:09:00 CST 2018]; root of context hierarchy
+2018-07-04 10:09:06.038  INFO 1200 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 10:09:06.834  INFO 1200 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2767e23c: startup date [Wed Jul 04 10:09:00 CST 2018]; root of context hierarchy
+2018-07-04 10:09:07.309  INFO 1200 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/stu/getAllStudent],methods=[GET]}" onto public java.lang.String com.example.demo.controller.StudentController.getAllStudent(javax.servlet.http.HttpServletRequest)
+2018-07-04 10:09:07.317  INFO 1200 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-04 10:09:07.321  INFO 1200 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-04 10:09:07.402  INFO 1200 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 10:09:07.406  INFO 1200 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 10:09:07.693  WARN 1200 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-07-04 10:09:10.046  INFO 1200 --- [main] com.example.demo.SampleApplicationTests  : Started SampleApplicationTests in 11.866 seconds (JVM running for 17.555)
+2018-07-04 10:09:11.421  INFO 1200 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@2767e23c: startup date [Wed Jul 04 10:09:00 CST 2018]; root of context hierarchy
+2018-07-04 10:11:13.962  INFO 16496 --- [main] com.example.demo.SampleApplication       : Starting SampleApplication on DESKTOP-U5U1KIE with PID 16496 (C:\user\idea\sample-master\target\classes started by 谭振祺 in C:\user\idea\sample-master)
+2018-07-04 10:11:13.972  INFO 16496 --- [main] com.example.demo.SampleApplication       : No active profile set, falling back to default profiles: default
+2018-07-04 10:11:14.136  INFO 16496 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56528192: startup date [Wed Jul 04 10:11:14 CST 2018]; root of context hierarchy
+2018-07-04 10:11:19.250  INFO 16496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-07-04 10:11:19.382  INFO 16496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-04 10:11:19.382  INFO 16496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-04 10:11:19.409  INFO 16496 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\谭振祺\AppData\Local\Microsoft\WindowsApps;;.]
+2018-07-04 10:11:19.880  INFO 16496 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-04 10:11:19.882  INFO 16496 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5746 ms
+2018-07-04 10:11:20.203  INFO 16496 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-07-04 10:11:20.231  INFO 16496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-04 10:11:20.232  INFO 16496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-04 10:11:20.235  INFO 16496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-04 10:11:20.235  INFO 16496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-04 10:11:21.171  INFO 16496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 10:11:22.148  INFO 16496 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56528192: startup date [Wed Jul 04 10:11:14 CST 2018]; root of context hierarchy
+2018-07-04 10:11:22.345  INFO 16496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/stu/getAllStudent],methods=[GET]}" onto public java.lang.String com.example.demo.controller.StudentController.getAllStudent(javax.servlet.http.HttpServletRequest)
+2018-07-04 10:11:22.364  INFO 16496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-04 10:11:22.371  INFO 16496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-04 10:11:22.470  INFO 16496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 10:11:22.472  INFO 16496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 10:11:22.646  WARN 16496 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-07-04 10:11:23.262  INFO 16496 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-04 10:11:23.267  INFO 16496 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-04 10:11:23.279  INFO 16496 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-04 10:11:23.334 ERROR 16496 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at com.example.demo.SampleApplication.main(SampleApplication.java:10) [classes/:na]
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_131]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	... 14 common frames omitted
+
+2018-07-04 10:11:23.342  INFO 16496 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-07-04 10:11:23.370  INFO 16496 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-07-04 10:11:23.375 ERROR 16496 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-07-04 10:11:23.378  INFO 16496 --- [main] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56528192: startup date [Wed Jul 04 10:11:14 CST 2018]; root of context hierarchy
+2018-07-04 10:11:23.381  INFO 16496 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-04 10:11:23.382  INFO 16496 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
